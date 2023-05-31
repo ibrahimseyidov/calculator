@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="main-contain">
+        <div class="container">
+            <div class="changer-btn">
+                <div class="dark-contain">
+                    <img class="darkBtn" src="./assets/icon/darkBtn.svg" style="display: block;">
+                    <img class="darkCircle" src="./assets/icon/darkCircle.svg">
+                    <img class="moon" src="./assets/icon/moon.svg">
+                </div>
+            </div>
+            <div class="bottom-container">
+                <div class="result-container">
+                    <input type="text" class="main-result" disabled>
+                </div>
+                <div class="button-container">
+                    <div class="contain">
+                        <input type="button" class="clear" style="background-color: #4E505F; border:none; color: #FFF;"
+                            value="AC"">
+                        <input type="button" class="plusMinus"
+                            style="background-color: #4E505F; border:none; color: #FFF;" value="+/-">
+                        <input type="button" class="divide" style="background-color: #4E505F; border:none; color: #FFF;"
+                            value="%">
+                        <input type="button" class="operator"
+                            style="background-color: #4B5EFC; border:none; color: #fff;" value="÷">
+                    </div>
+                    <div class="contain">
+                        <input type="button" class="number" value="7">
+                        <input type="button" class="number" value="8">
+                        <input type="button" class="number" value="9">
+                        <input type="button" class="operator"
+                            style="background-color: #4B5EFC; border:none; color: #fff;" value="×">
+                    </div>
+                    <div class="contain">
+                        <input type="button" class="number" value="4">
+                        <input type="button" class="number" value="5">
+                        <input type="button" class="number" value="6">
+                        <input type="button" class="operator"
+                            style="background-color: #4B5EFC; border:none; color: #fff;" value="-">
+                    </div>
+                    <div class="contain">
+                        <input type="button" class="number" value="1">
+                        <input type="button" class="number" value="2">
+                        <input type="button" class="number" value="3">
+                        <input type="button" class="operator"
+                            style="background-color: #4B5EFC; border:none; color: #fff;" value="+">
+                    </div>
+                    <div class="contain">
+                        <input type="button" class="decimal" value=".">
+                        <input type="button" class="number" value="0">
+                        <button class="x-btn">
+                            <img src="./assets/icon/xbtn.svg" class="delBtn">
+                        </button>
+                        <input type="button" class="equal" style="background-color: #4B5EFC; border:none; color: #fff;"
+                            value="=">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="./assets/script.js"></script>
+
+</body>
+
+</html>

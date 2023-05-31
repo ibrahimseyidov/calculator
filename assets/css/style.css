@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.main-contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 450px;
+    box-shadow: 1px 2px 19px 0px rgba(0,0,0,0.75);
+    border-radius: 46px;
+    margin-top: 40px;
+    background-color: #17171C;
+}
+
+.changer-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 107px;
+}
+
+.result-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 70px;
+}
+
+.pre-result {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30.5px;
+    font-style: light;
+    text-align: right;
+    background-color: transparent;
+    color: #FFF;
+    opacity: 40%;
+    border: none;
+    outline: none;
+}
+
+.main-result {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 50.5px;
+    font-style: light;
+    text-align: right;
+    background-color: transparent;
+    color: #FFF;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+
+.button-container {
+    width: 100%;
+}
+
+.contain {
+    width: 80%;
+    display: flex;
+    margin-left: 56px;
+    margin-bottom: 16px;
+}
+
+.contain > * {
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 72px;
+    margin-right: 16px;
+    border-radius: 24px;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.contain > *:hover {
+    opacity: 0.5;
+}
+
+.x-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.changer-btn {
+    position: relative;
+}
+
+.dark-contain {
+    position: relative;
+    
+}
+
+.dark-contain :nth-child(2){
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    cursor:pointer;
+}
+
+.dark-contain :nth-child(3){
+    position: absolute;
+    top: 4px;
+    right: 4px;
+}
+
+
